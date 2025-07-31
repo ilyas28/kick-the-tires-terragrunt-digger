@@ -3,5 +3,5 @@ terraform {
 }
 
 inputs = {
-  null_resource_count = 2
+  null_resource_count = 1
 }
