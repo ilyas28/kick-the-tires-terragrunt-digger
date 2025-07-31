@@ -28,6 +28,8 @@ jobs:
       - uses: diggerhq/digger@vLatest
         with:
           digger-spec: ${{ inputs.spec }}
+          setup-terraform: true
+          terraform-version: 1.11.3
           setup-terragrunt: true
           terragrunt-version: 0.83.0
         env:
